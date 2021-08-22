@@ -1,0 +1,9 @@
+.education__container{
+    display: flex;
+	display: -webkit-box;
+	display: -webkit-flex;
+	display: -ms-flexbox;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    margin: 0 15px;
+}

@@ -1,0 +1,21 @@
+.page__title{
+    margin: 0;
+    padding-top: 10px;
+    padding-bottom: 15px;
+    color: #f09898;
+    font-size: 30px;
+    font-weight: 400;
+    text-align: center;
+}
+
+@media (max-width: 620px) {
+    .page__title {
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 460px) {
+    .page__title {
+        font-size: 16px;
+    }
+}

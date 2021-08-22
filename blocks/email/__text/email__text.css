@@ -1,0 +1,13 @@
+.email__text{
+    font-size: 30px;
+    font-weight: 300;
+    text-align: center;
+    margin: 0;
+    padding-bottom: 20px;
+}
+
+@media (max-width: 480px) {
+    .email__text {
+        font-size: 20px;
+    }
+}

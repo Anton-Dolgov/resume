@@ -1,0 +1,26 @@
+.general__link {
+    display: inline-block;
+    background-color: #f09898;
+    text-decoration: none;
+    color: #fff;
+    font-size: 15px;
+    font-weight: 300;
+    padding: 10px 70px;
+    border-radius: 5px;
+    box-shadow: -0.5px 5px 0 rgba(204, 129, 129, 0.9);
+}
+
+@media (max-width: 450px) {
+    .general__link {
+        display: block;
+        padding: 15px 70px;
+        text-align: center;
+    }
+}
+
+@media (max-width: 320px) {
+    .general__link {
+        padding: 15px 40px;
+        font-size: 20px;
+    }
+}

@@ -1,0 +1,35 @@
+.general__title{
+    margin: 0;
+    font-size: 30px;
+    text-transform: uppercase;
+    color: #fff;
+    font-weight: 300;
+    letter-spacing: 7px;
+}
+
+.general__title span {
+    margin: 0;
+    display: block;
+    color: #6eaec9;
+    font-size: 60px;
+    font-weight: 500;
+    line-height: 50px;
+    letter-spacing: 0;
+    white-space: pre-line;
+}
+
+@media (max-width: 620px) {
+    .general__title{
+        font-size: 20px;
+    }
+
+    .general__title span {
+        font-size: 40px;
+    }
+}
+
+@media (max-width: 395px) {
+    .general__title span {
+        font-size: 30px;
+    }
+}

@@ -1,0 +1,8 @@
+.programms__container{
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    padding-top: 20px;
+    align-items: space-around;
+    margin: 0 10px;
+}

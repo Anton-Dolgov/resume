@@ -1,0 +1,19 @@
+.projects__container{
+    display: grid;
+    grid-template-columns: repeat(auto-fit, minmax(min-content, 350px));
+    gap: 20px; 
+    justify-content: center;
+    padding-top: 20px;
+}
+
+@media (max-width: 720px) {
+    .projects__container{
+        grid-template-columns: repeat(auto-fit, minmax(min-content, 400px));
+    }
+}
+
+@media (max-width: 420px) {
+    .projects__container{
+        grid-template-columns: repeat(auto-fit, minmax(min-content, 300px));
+    }
+}

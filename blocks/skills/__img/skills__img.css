@@ -1,0 +1,6 @@
+.skills__img{
+    width: 120px;
+    height: 120px;
+    padding-bottom: 20px;
+    object-fit: contain;
+}

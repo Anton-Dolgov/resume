@@ -1,0 +1,14 @@
+.education__img{
+    width: 240px;
+    height: 150px;
+    object-fit: contain;
+    object-position: top;
+    align-self: center;
+}
+
+@media (max-width: 450px) {
+    .education__img {
+        width: 220px;
+        height: 120px;
+    }
+}

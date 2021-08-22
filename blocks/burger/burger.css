@@ -1,0 +1,31 @@
+.burger {
+    display: none;
+    border: none;
+    margin-left: 16px;
+    color: transparent;
+}
+
+
+.burger span{
+    width: 35px;
+    padding-bottom: 10px;
+    display: block;
+    border-bottom: 2px solid black;
+}
+
+.burger:hover {
+    cursor: pointer;
+}
+
+@media (max-width: 600px) {
+    .burger {
+        display: inline-block;
+    }
+}
+
+@media (max-width: 500px) {
+    .burger {
+        padding-left: 0;
+        margin-left: 10px;
+    }
+}

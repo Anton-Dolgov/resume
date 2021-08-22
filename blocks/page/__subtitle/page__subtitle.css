@@ -1,0 +1,17 @@
+.page__subtitle{
+    margin: 0;
+    font-size: 30px;
+    color: #50b6df;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+    text-align: center;
+    font-weight: 500;
+}
+
+
+@media (max-width: 600px) {
+    .page__subtitle{
+        font-size: 20px;
+    }
+    
+}

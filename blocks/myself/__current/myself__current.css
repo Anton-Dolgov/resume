@@ -1,0 +1,17 @@
+.myself__current{
+    margin: 0;
+    font-weight: 600;
+    font-size: 20px;
+    padding-bottom: 40px;
+    text-align: center;
+}
+
+.myself__current span{
+    font-weight: 300;
+}
+
+@media (max-width: 1170px) {
+    .myself__current {
+        font-size: calc(14px + (5 + 5 * 0.7) * ((100vw - 320px) / 1170));
+    }
+}

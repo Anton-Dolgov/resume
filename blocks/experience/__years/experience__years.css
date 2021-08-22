@@ -1,0 +1,36 @@
+.experience__years{
+    margin: 0;
+    font-size: 20px;
+    font-weight: 500;
+    line-height: 25px;
+    width: 25%;
+    text-align: right;
+}
+
+.experience__years_visible {
+    display: none;
+}
+
+
+@media (max-width: 750px) {
+    .experience__years {
+        display: none;
+        font-size: 15px;
+        text-align: start;
+    }
+
+    .experience__years_visible {
+        display: block;
+        width: 100%;
+    }
+}
+
+@media (max-width: 530px) {
+    .experience__years {
+        text-align: start;
+    }
+}
+
+
+
+

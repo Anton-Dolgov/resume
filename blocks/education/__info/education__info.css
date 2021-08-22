@@ -1,0 +1,12 @@
+.education__info{
+    white-space: pre-line;
+    font-size: 16px;
+    display: flex;
+}
+
+@media (max-width: 450px) {
+    .education__info {
+        padding-bottom: 10px;
+        font-size: 12px;
+    }
+}

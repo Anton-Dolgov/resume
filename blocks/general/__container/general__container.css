@@ -1,0 +1,17 @@
+.general__container{
+    position: relative;
+    padding-left: 50px;
+    padding-top: 70px;
+    padding-right: 50px;
+    max-width: 1170px;
+    margin: 0 auto;
+    z-index: 3;
+}
+
+@media (max-width: 500px) {
+    .general__container {
+        padding-left: 30px;
+        padding-right: 30px;
+        padding-top: 50px;
+    }
+}

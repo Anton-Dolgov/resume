@@ -1,0 +1,10 @@
+.education{
+    max-width: 900px;
+    margin: 0 auto;
+}
+
+@media(max-width: 772px) {
+    .education {
+        max-width: 550px;
+    }
+}

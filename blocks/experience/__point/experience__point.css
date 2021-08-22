@@ -1,0 +1,16 @@
+.experience__point{
+    display: flex;
+    padding: 0 40px;
+    justify-content: center;
+}
+
+
+.experience__point:last-child .experience__images .experience__img-two {
+    display: none;
+}
+
+@media (max-width: 420px) {
+    .experience__point {
+        padding: 0 10px;
+    }
+}

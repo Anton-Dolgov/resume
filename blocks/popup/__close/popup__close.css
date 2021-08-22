@@ -1,0 +1,47 @@
+.popup__close {
+    margin: 20px;
+    display: flex;
+    justify-content: center;
+    border: 0;
+    background-color: transparent;
+    display: inline-block;
+    align-self: flex-end;
+}
+.popup__close div {
+    cursor: pointer;
+    position: relative;  
+    height: 28px;
+    width: 50px;
+}
+.popup__close .leftright {
+    height: 4px;
+    width: 40px;
+    position: absolute;
+    margin-top: 24px;
+    background-color: black;
+    border-radius: 2px;
+    transform: rotate(45deg);
+    transition: all .3s ease-in;
+}
+.popup__close .rightleft {
+    height: 4px;
+    width: 40px;
+    position: absolute;
+    margin-top: 24px;
+    background-color: black;
+    border-radius: 2px;
+    transform: rotate(-45deg);
+    transition: all .3s ease-in;
+}
+
+.popup__close div:hover .leftright {
+    transform: rotate(-45deg);
+    background-color: #000;
+}
+.popup__close div:hover .rightleft {
+    transform: rotate(45deg);
+    background-color: #000;
+}
+.popup__close div:hover .close-btn {
+    opacity: 1;
+}

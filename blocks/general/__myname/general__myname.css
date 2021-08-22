@@ -1,0 +1,20 @@
+.general__myname{
+    margin: 0;
+    font-size: 30px;
+    color: #f09898;
+    font-weight: 400;
+    line-height: 70px;
+    padding-bottom: 10px;
+}
+
+.general__myname span{
+    margin: 0;
+    color: #fff;
+
+}
+
+@media (max-width: 620px) {
+    .general__myname{
+        font-size: 20px;
+    }
+}

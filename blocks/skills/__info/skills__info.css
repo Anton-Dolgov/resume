@@ -1,0 +1,12 @@
+.skills__info{
+    margin: 0;
+    font-size: 15px;
+    font-weight: 300;
+    text-align: center;
+}
+
+@media (max-width: 720px) {
+    .skills__info {
+        font-size: 13px;
+    }
+}

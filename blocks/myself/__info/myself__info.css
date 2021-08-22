@@ -1,0 +1,51 @@
+.myself__info{
+    display: flex;
+    flex-direction: column;
+    max-height: 390px;
+    justify-content: space-between;
+    font-weight: 300;
+    width: 50%;
+}
+
+@media (max-width: 700px) {
+    .myself__info{
+        width: 100%;
+        margin-top: 10px;
+    }
+}
+
+.myself__info h2{
+    margin: 0;
+    font-weight: 400;
+    font-size: 25px;
+    font-style: italic;
+    margin-bottom: 7px;
+}
+
+.myself__info p{
+    margin: 0;
+    font-size: 20px;
+    padding-bottom: 7px;
+}
+
+.myself__info span{
+    font-weight: 600;
+}
+
+@media (max-width: 925px) {
+    .myself__info p{
+        margin: 0;
+        font-size: 16px;
+    }
+
+    .myself__info h2{
+        font-size: 20px;
+    }
+}
+
+@media (max-width: 800px) {
+    .myself__info p{
+        margin: 0;
+        font-size: 14px;
+    }
+}

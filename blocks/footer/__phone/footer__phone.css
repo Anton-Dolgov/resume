@@ -1,0 +1,5 @@
+.footer__phone{
+    display: flex;
+    align-items: center;
+    padding-bottom: 6px;
+}
